@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: blueviolet;
+    background-color: rgba(255, 228, 196, 0.8);
 }
 
 .cabecalho__imagem {
@@ -9,13 +9,9 @@
 .cabecalho__titulo {
     text-align: center;
     font-size: 50px;
-    font-family: ;
-}
-
-.cabecalho__subTitulo {
-
+    font-family: 'cutive mono';
 }
 
 .cabecalho__menu {
-
+    
 }
