@@ -1,6 +1,21 @@
-.cabecalho {
-    background-color: rgba(255, 228, 196, 0.8);
+.borda {
+    background-color:#93b0db;
+    padding: 30px;
 }
+.fundo {
+    background-color: #e5e0d8;
+    padding: 30px;
+}
+.fundo-menor {
+    background-color: #ccbae0a4;
+    width: 70%;
+    padding: 50px;
+    margin-left: 15%;
+}
+
+.cabecalho {
+    background-color: #ccbae0a4;
+}   
 
 .cabecalho__imagem {
     margin-left: 30%;
@@ -9,9 +24,28 @@
 .cabecalho__titulo {
     text-align: center;
     font-size: 50px;
-    font-family: 'cutive mono';
+    font-family: 'tan nimbus';
 }
 
 .cabecalho__menu {
-    
+    text-align: center;
+    font-family: 'tan nimbus';
 }
+
+.menu {
+    list-style: none;
+    padding: 5px;
+}
+
+.item-menu{
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: #000000a4;
+}
+
+.rodape {
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,67 @@
+.caixas { /*classe estrutural*/
+    width: 20%;
+    height: 25vh;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.caixa-1 { /*modificar*/
+    background-color: #b678fda4;
+    
+}
+
+.caixa-2 { /*modificar*/
+    background-color: #a486c5a4;
+}
+
+.caixa-3{ /*modificar*/
+    background-color: #e4cdffa4;
+}
+
+.secoes {
+    border-bottom: 2px solid #b678fda4;
+    min-height: 40vh;
+}
+
+.campo {
+    padding: 5px;
+    border: 2px solid #a05aeb;
+    border-radius: 5px;
+}
+
+.botao {
+    padding: 5px;
+    border: 2px solid #a05aeb;
+    border-radius: 5px;
+    background-color: #d9b5ff;
+    min-width: 180px;
+}
+
+.formulario {
+    margin-left: 45%;
+}
+
+.imagem-formulario {
+    margin-left: 40px;
+}
+
+.fonte {
+    font-family: georgia;
+}
+
+.fonte-titulo {
+    font-style: oblique;
+}
+
+.paragrafo {
+    font-size: 18px;
+    font-family: 'georgia';
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
