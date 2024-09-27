@@ -15,11 +15,9 @@
 
 .cabecalho {
     background-color: #ccbae0a4;
+    padding: 10px;
 }   
 
-.cabecalho__imagem {
-    margin-left: 30%;
-}
 
 .cabecalho__titulo {
     text-align: center;
@@ -28,24 +26,40 @@
 }
 
 .cabecalho__menu {
-    text-align: center;
     font-family: 'tan nimbus';
+    font-size: 20px;
 }
 
 .menu {
-    list-style: none;
+    list-style-type: none;
     padding: 5px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
 }
 
-.item-menu{
-    text-decoration: overline;
-    text-decoration-style: wavy;
-    text-decoration-color: #000000a4;
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #ed8ae678;
 }
 
 .rodape {
     text-align: center;
 }
 
+.bloco-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.texto {
+    font-size: 150%;
+}
 
 

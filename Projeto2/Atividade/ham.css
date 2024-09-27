@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.menu img {
+
+}
