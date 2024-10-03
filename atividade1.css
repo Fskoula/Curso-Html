@@ -7,12 +7,12 @@
     border: 3px solid black;
     text-align: center;
     text-align: justify;
-    word-spacing: 2px;
+    word-spacing: 5px;
+    min-height: 40vh;
 }
 
 .caixa-1 { /*modificar*/
     background-color: #b678fda4;
-    
 }
 
 .caixa-2 { /*modificar*/
@@ -25,7 +25,7 @@
 
 .secoes {
     border-bottom: 2px solid #b678fda4;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .campo {
@@ -39,15 +39,16 @@
     border: 2px solid #a05aeb;
     border-radius: 5px;
     background-color: #d9b5ff;
-    min-width: 180px;
+    min-width: 200px;
 }
 
 .formulario {
+    margin-top: 30%;
     margin-left: 45%;
 }
 
 .imagem-formulario {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .fonte {
@@ -112,7 +113,7 @@
 
 .cards1 {
     width: 30%;
-    height: 40vh;
+    height: 50vh;
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
@@ -127,7 +128,7 @@
 
 .cards2 {
     width: 30%;
-    height: 40vh;
+    height: 50vh;
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
@@ -142,7 +143,7 @@
 
 .cards3 {
     width: 30%;
-    height: 40vh;
+    height: 50vh;
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
@@ -171,16 +172,16 @@
 }
 
 .caixa-estatica {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: #3f8be8;
     position: static;
 }
 
 .caixa-relativa {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: #9332fb;
     position: relative;
@@ -191,19 +192,19 @@
 }
 
 .caixa-fixa {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: #d9b5ff;
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
     z-index: -1;
 }
 
 .caixa-grudada {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: #348b38;
     position: sticky;
@@ -211,78 +212,16 @@
 }
 
 .caixa-absoluta {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: #a15846;
-    position:absolute;
-    bottom: 50px;
+    position: absolute;
+    top: 30px;
+    left: 110px;
     z-index: -1; /*para ficar atras das coisas*/
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid #d9b5ff;
-    background-color: #d9b5ff;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
-}
 
-header nav {
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-}
 
-header ul {
-
-}
-
-header li {
-    list-style: none;
-} 
-
-header a {
-    text-decoration: none;
-}
-
-.contato {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.contato img {
-    height: 50px;
-    width: 50px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-}
-
-footer img {
-    width: 50px;
-    height: 50px;
-}
-
-footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-}
-
-footer li {
-   list-style: none;
-}
 
